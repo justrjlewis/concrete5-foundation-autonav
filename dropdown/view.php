@@ -109,7 +109,7 @@ foreach ($navItems as $ni) {
 
 
 //*** Step 2 of 2: Output menu HTML ***/
-
+// use class "left", or "right" to sit the nav on the left, or right of the area
 echo '<ul class="right">'; //opens the top-level menu
 
 foreach ($navItems as $ni) {
